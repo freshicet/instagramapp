@@ -28,3 +28,20 @@ This will call the script and pass the path to the image file as an argument. Th
 Please note that above code snippet assumes that the value of ExposureTime is in seconds and the value of DateTimeOriginal is in the format of '%Y:%m:%d %H:%M:%S' If the format is different, you will have to adjust the format string passed to convert_to_date function.
 
 This is just a basic example of how you can use the PIL library to extract Exif data from an image file and use it in your application. You can expand on this code to add more features or to extract additional information from the image file.
+
+#
+
+## Output
+
+```python
+=================================
+Location:
+Date:  12/17/22
+Camera: Nikon D7000
+Lens:  50.0
+Filter: N/A
+Aperture:  1.4
+Iso:  100
+Shutter:  10/8000
+=================================
+```
